@@ -1,0 +1,51 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  overflow: hidden;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  color: #d04438;
+  font-family: "Bodega Serif";
+  font-size: 5vw;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 6.25vh;
+  margin-bottom: 6.25vh;
+}
+canvas {
+  margin: auto;
+  display: block;
+  top: -10vh;
+}
+.grid-container {
+  grid-template-columns: auto auto;
+  display: grid;
+  width: 55.47vw;
+  margin: auto;
+  justify-content: space-between;
+}
+.ver1 {
+  color: white;
+  font-family: "amatic-sc", sans-serif;
+  font-size: 1.5625vw;
+  font-weight: 700;
+  font-style: normal;
+  line-height: normal;
+  max-width: auto;
+  display: inline-block;
+}
+.ver2 {
+  color: white;
+  font-family: "amatic-sc", sans-serif;
+  font-size: 1.5625vw;
+  font-weight: 700;
+  font-style: normal;
+  line-height: normal;
+  max-width: auto;
+  display: inline-block;
+}
